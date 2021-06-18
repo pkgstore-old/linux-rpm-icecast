@@ -10,7 +10,7 @@
 # Setup _pkgdocdir if not defined already.
 %{!?_pkgdocdir:%global _pkgdocdir %{_docdir}/%{name}-%{version}}
 
-%global release_prefix          100
+%global release_prefix          101
 
 Name:                           icecast
 Version:                        2.4.4
@@ -38,6 +38,8 @@ Summary:                        ShoutCast compatible streaming media server
 
 License:                        GPLv2+ and GPLv2 and BSD
 URL:                            https://www.%{name}.org/
+Vendor:                         Package Store <https://pkgstore.github.io>
+Packager:                       Kitsune Solar <kitsune.solar@gmail.com>
 
 Source0:                        https://downloads.xiph.org/releases/%{name}/%{name}-%{version}.tar.gz
 Source1:                        %{name}.init
@@ -216,6 +218,9 @@ fi
 
 
 %changelog
+* Fri Jun 18 2021 Package Store <kitsune.solar@gmail.com> - 2.4.4-101
+- UPD: Add "Vendor" & "Packager" fields.
+
 * Fri Jun 18 2021 Package Store <kitsune.solar@gmail.com> - 2.4.4-100
 - UPD: Move to Package Store.
 - UPD: License.
