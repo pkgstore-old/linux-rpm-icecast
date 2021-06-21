@@ -8,6 +8,7 @@
 
 ```
 $ dnf copr enable pkgstore/icecast
+$ dnf install -y icecast
 ```
 
 ### Open Build Service (OBS)
