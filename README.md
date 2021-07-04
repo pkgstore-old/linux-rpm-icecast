@@ -23,6 +23,13 @@ $ dnf install -y icecast
 $ dnf upgrade -y icecast
 ```
 
+## Remove
+
+```
+$ dnf erase -y icecast
+$ dnf copr remove pkgstore/icecast
+```
+
 ## How to Build
 
 1. Get source from [src.fedoraproject.org](https://src.fedoraproject.org/rpms/icecast).
